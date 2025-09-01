@@ -1,5 +1,12 @@
 # SagaR
 
+[![CI/CD Status](https://github.com/YOUR_GITHUB_USERNAME/SagaR/actions/workflows/main.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/SagaR/actions/workflows/main.yml)
+[![GitHub release](https://img.shields.io/github/v/release/YOUR_GITHUB_USERNAME/SagaR)](https://github.com/YOUR_GITHUB_USERNAME/SagaR/releases/latest)
+
+**NuGet Package:**
+
+[![NuGet](https://img.shields.io/nuget/v/SagaR.Core.svg)](https://www.nuget.org/packages/SagaR.Core/)
+
 **SagaR** is a lightweight, decoupled .NET library for orchestrating complex processes based on the Saga pattern. It provides a fluent API and native integration with Dependency Injection to allow you to declaratively define the sequence of operations and their corresponding compensation logic.
 
 SagaR is designed to be agnostic of the state management framework, but it can be used in perfect synergy with libraries like **TransactR** to add a robust rollback mechanism to your sagas.
