@@ -6,10 +6,10 @@
     <Nullable>enable</Nullable>
 
     <!-- NuGet Metadata -->
-    <PackageId>TransactR</PackageId>
+    <PackageId>SagaR</PackageId>
     <Version>0.1.1</Version>
     <Authors>Luca Fabbri</Authors>
-    <Description>TransactR is a lightweight and extensible .NET library that simplifies transactional workflows and rollbacks. It uses the Memento pattern to automatically save and restore the application state, ensuring data integrity in case of failures. The library is modular and provides seamless integration with popular frameworks like MediatR and Concordia.Core.</Description>
+    <Description>SagaR is a lightweight, decoupled .NET library for orchestrating complex processes based on the Saga pattern. It provides a fluent API and native integration with Dependency Injection to allow you to declaratively define the sequence of operations and their corresponding compensation logic.</Description>
     <RepositoryUrl>https://github.com/lucafabbri/TransactR</RepositoryUrl>
     <PackageTags>memento;cqrs;transactions;pipeline;concordia;mediatr;lucafabbri</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
