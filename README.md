@@ -1,11 +1,11 @@
 # SagaR
 
-[![CI/CD Status](https://github.com/YOUR_GITHUB_USERNAME/SagaR/actions/workflows/main.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/SagaR/actions/workflows/main.yml)
-[![GitHub release](https://img.shields.io/github/v/release/YOUR_GITHUB_USERNAME/SagaR)](https://github.com/YOUR_GITHUB_USERNAME/SagaR/releases/latest)
+[![CI/CD Status](https://github.com/lucafabbri/SagaR/actions/workflows/main.yml/badge.svg)](https://github.com/lucafabbri/SagaR/actions/workflows/main.yml)
+[![GitHub release](https://img.shields.io/github/v/release/lucafabbri/SagaR)](https://github.com/lucafabbri/SagaR/releases/latest)
 
 **NuGet Package:**
 
-[![NuGet](https://img.shields.io/nuget/v/SagaR.Core.svg)](https://www.nuget.org/packages/SagaR.Core/)
+[![NuGet](https://img.shields.io/nuget/v/SagaR.svg)](https://www.nuget.org/packages/SagaR/)
 
 **SagaR** is a lightweight, decoupled .NET library for orchestrating complex processes based on the Saga pattern. It provides a fluent API and native integration with Dependency Injection to allow you to declaratively define the sequence of operations and their corresponding compensation logic.
 
@@ -26,7 +26,7 @@ SagaR is designed to be agnostic of the state management framework, but it can b
 Install the NuGet package into your application.
 
 ```
-dotnet add package SagaR.Core
+dotnet add package SagaR
 ```
 
 ## Usage Example
