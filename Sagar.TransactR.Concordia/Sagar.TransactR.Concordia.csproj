@@ -7,7 +7,7 @@
 
     <!-- NuGet Metadata -->
     <PackageId>SagaR.TransactR.Concordia</PackageId>
-    <Version>0.2.0</Version>
+    <Version>0.2.1</Version>
     <Authors>Luca Fabbri</Authors>
     <Description>SagaR is a lightweight, decoupled .NET library for orchestrating complex processes based on the Saga pattern. It provides a fluent API and native integration with Dependency Injection to allow you to declaratively define the sequence of operations and their corresponding compensation logic.</Description>
     <RepositoryUrl>https://github.com/lucafabbri/TransactR</RepositoryUrl>
