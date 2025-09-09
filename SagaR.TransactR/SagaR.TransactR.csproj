@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>net9.0;net8.0;netstandard2.0</TargetFrameworks>
@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <!-- NuGet Metadata -->
-    <PackageId>SagaR</PackageId>
+    <PackageId>SagaR.TransactR</PackageId>
     <Version>0.1.2</Version>
     <Authors>Luca Fabbri</Authors>
     <Description>SagaR is a lightweight, decoupled .NET library for orchestrating complex processes based on the Saga pattern. It provides a fluent API and native integration with Dependency Injection to allow you to declaratively define the sequence of operations and their corresponding compensation logic.</Description>
@@ -16,18 +16,18 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <None Include="../README.md" Pack="true" PackagePath="\" />
+    <PackageReference Include="TransactR" Version="0.3.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.8" />
+    <ProjectReference Include="..\SagaR\SagaR.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <InternalsVisibleTo Include="SagaR.TransactR" />
+    <InternalsVisibleTo Include="SagaR.TransactR.Concordia" />
+    <InternalsVisibleTo Include="SagaR.TransactR.MediatR" />
   </ItemGroup>
 
 </Project>
